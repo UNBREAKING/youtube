@@ -1,0 +1,52 @@
+body{ margin: 0;}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background:  #AF2833;
+}
+
+.logo{
+    color:#fff;
+    text-shadow:1px 1px 1px black;
+    margin: 0;
+    font-size: 32px;
+    width: 220px;
+}
+.header a{
+    width: 220px;
+    display: inline-block;
+}
+.header a:hover .logo{
+    color:black;
+    text-shadow:1px 1px 1px white;
+
+}
+
+.center{
+    float: right;
+    width: 385px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.center input{
+    height: 30px;
+    width:350px;
+    border: none;
+    border-radius: 5px;
+
+}
+.center button{
+
+    position: absolute;
+    margin-left: -5px;
+    background: #fff;
+    border:none;
+    border-left: 1px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 32px;
+}
+
+.center button
